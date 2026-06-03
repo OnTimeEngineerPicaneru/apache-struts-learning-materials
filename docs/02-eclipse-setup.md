@@ -35,6 +35,10 @@ Window
   → Add
   → Apache Tomcat
 ```
+<img width="1288" height="925" alt="image" src="https://github.com/user-attachments/assets/5b1e1243-097b-4703-8661-2acafb1e9b90" />
+<img width="633" height="677" alt="image" src="https://github.com/user-attachments/assets/69f8459e-38ab-4f89-b433-aa9201952e77" />
+<img width="1289" height="930" alt="image" src="https://github.com/user-attachments/assets/3c97b64c-a38d-4cbb-aa72-97bb8c3960b6" />
+
 
 Tomcat のインストール先を指定します。
 
