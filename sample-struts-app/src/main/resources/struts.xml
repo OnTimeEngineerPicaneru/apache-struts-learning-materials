@@ -12,4 +12,17 @@
         </action>
 
     </package>
+
+    <package name="member" namespace="/member" extends="struts-default">
+
+        <action name="list" class="com.example.struts.action.MemberListAction">
+            <result name="success">/member-list.jsp</result>
+        </action>
+
+        <action name="detail" class="com.example.struts.action.MemberDetailAction">
+            <result name="success">/member-detail.jsp</result>
+            <result name="notFound">/member-not-found.jsp</result>
+        </action>
+
+    </package>
 </struts>
