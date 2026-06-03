@@ -42,4 +42,32 @@
 3. sample-struts-app を Eclipse にインポートする
 4. docs/03-struts-tutorial.md に沿ってアプリを作成・改修する
 5. docs/04-large-scale-development.md で実務的な設計を学ぶ
-6. docs/exercises.md の演習を解く
+6. docs/05-security.md でセキュリティ上の注意点を確認する
+7. docs/06-migration.md で移行方針を学ぶ
+8. docs/exercises.md の演習を解く
+```
+
+## サンプルアプリ
+
+`sample-struts-app` に最小構成の Struts アプリを配置しています。
+
+起動後、以下にアクセスします。
+
+```text
+http://localhost:8080/sample-struts-app/hello
+```
+
+## 注意事項
+
+Apache Struts は過去に重大な脆弱性が複数報告されているフレームワークです。学習目的で利用する場合でも、以下を必ず守ってください。
+
+- 古い Struts を使用しない
+- 公式のセキュリティ情報を確認する
+- 不要なプラグインを導入しない
+- 入力値検証を必ず行う
+- ファイルアップロード処理は特に慎重に実装する
+- 本番環境では常に最新の安定版を利用する
+
+## ライセンス
+
+MIT License
